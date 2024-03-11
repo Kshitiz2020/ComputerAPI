@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: radial-gradient(
+    328px at 2.9% 15%,
+    rgb(191, 224, 251) 0%,
+    rgb(232, 233, 251) 25.8%,
+    rgb(252, 239, 250) 50.8%,
+    rgb(234, 251, 251) 77.6%,
+    rgb(240, 251, 244) 100.7%
+  );
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: rgb(104, 104, 213);
+
+  min-height: 100vh;
+  text-align: center;
+}
+.menuContainer {
+  margin: 40px;
+}
+
+button {
+  border-radius: 10px;
+  border: 1px solid blue;
+  color: rgb(36, 36, 83);
+  margin: 15px;
+  background-color: #f4f4fa;
+  font-size: 20px;
+  width: 15em;
+  height: 2em;
+}
+input[readonly] {
+  background-color: beige;
+}
+main {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+thead {
+  background-color: beige;
+}
+table,
+th,
+td {
+  border: 1px solid blue;
+  color: rgb(36, 36, 83);
+  padding: 15px;
+  margin: 10px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.error {
+  border: dashed red 1px;
+  padding: 0.5em;
+}
+.info {
+  border: solid green 2px;
+  padding: 1.5em;
+}
+.update {
+  margin: 2rem;
+}
+#fields {
+  margin: 2rem;
+}
+#options {
+  margin: 2rem;
+}

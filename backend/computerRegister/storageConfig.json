@@ -1,0 +1,6 @@
+{
+  "storageFile": "Khanal_Kshitiz_computers.json",
+  "adapterFile": "computerAdapter.js",
+  "primary_key": "heroID",
+  "resource": "computer"
+}
